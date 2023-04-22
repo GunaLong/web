@@ -1,7 +1,6 @@
 import self from "../img/me.png";
 import DC from "../img/DC.png";
-import mock2 from "../img/mock2.png";
-import mock3 from "../img/mock3.png";
+import mock3 from "../img/aboutme.png";
 import mock4 from "../img/mock4.png";
 import mock5 from "../img/mock5.png";
 import pet from "../img/pet.png";
@@ -26,15 +25,15 @@ export const info = {
   firstName: "林",
   lastName: "冠龍",
   initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-  position: "a Full Stack Developer",
+  position: "Front-end engineer",
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: "☕",
-      text: "fueled by coffee",
+      emoji: "📖",
+      text: "like reading",
     },
     {
       emoji: "🌎",
@@ -51,30 +50,26 @@ export const info = {
   ],
   socials: [
     {
-      link: "https://facebook.com",
+      link: "https://www.facebook.com/profile.php?id=100002292954899",
       icon: "fa fa-facebook",
       label: "facebook",
     },
     {
-      link: "https://instagram.com",
+      link: "https://www.instagram.com/long__0628/",
       icon: "fa fa-instagram",
       label: "instagram",
     },
     {
-      link: "https://github.com",
+      link: "https://github.com/GunaLong",
       icon: "fa fa-github",
       label: "github",
     },
     {
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/in/guanlong-lin-a27094258/",
       icon: "fa fa-linkedin",
       label: "linkedin",
     },
-    {
-      link: "https://twitter.com",
-      icon: "fa fa-twitter",
-      label: "twitter",
-    },
+
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
@@ -130,9 +125,9 @@ export const info = {
       image: DC,
     },
     {
-      title: "Project 3",
+      title: "個人網站",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      source: "https://github.com/GunaLong/web",
       image: mock3,
     },
     {
