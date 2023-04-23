@@ -8,23 +8,23 @@ import { info } from "../info/Info";
 const links = [
   {
     name: "首頁",
-    to: "/",
+    to: "/web",
     active: "home",
   },
   {
     name: "關於我",
-    to: "/about",
+    to: "/web/about",
     active: "about",
   },
   {
     name: info.initials,
     type: "initials",
-    to: "/",
+    to: "/web",
     active: "home",
   },
   {
     name: "個人作品",
-    to: "/portfolio",
+    to: "/web/portfolio",
     active: "portfolio",
   },
 ];
